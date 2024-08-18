@@ -222,6 +222,8 @@ export const locale: Locale = {
       'Rocznica poświęcenia Bazyliki Katedralnej Saint-Denis, Francja',
     dedication_of_the_cathedral_of_notre_dame_de_strasbourg_france:
       'Rocznica poświęcenia Katedry Notre-Dame de Strasbourg, Francja',
+    dedication_of_the_cathedral_of_wroclaw_poland:
+      'Rocznica poświęcenia kościoła katedralnego we Wrocławiu',
     dedication_of_the_lateran_basilica: 'Rocznica poświęcenia Bazyliki Laterańskiej',
     dedication_of_the_notre_dame_de_paris_cathedral_paris_france:
       'Rocznica poświęcenia Katedry Notre-Dame de Paris, Francja',
@@ -362,6 +364,7 @@ export const locale: Locale = {
     margaret_mary_alacoque_virgin: 'Św. Małgorzaty Marii Alacoque, dziewicy',
     margaret_of_scotland: 'Św. Małgorzaty Szkockiej',
     maria_goretti_virgin: 'Św. Marii Goretti, dziewicy i męczennicy',
+    maria_merkert_virgin: 'Bł. Marii Luizy Merkert, dziewicy',
     marie_eugenie_of_jesus_milleret_de_brou_virgin:
       'Św. Marii Eugenii od Jezusa Milleret de Brou, dziewicy i założycielki',
     mark_evangelist: 'Św. Marka, Ewangelisty',
@@ -398,6 +401,7 @@ export const locale: Locale = {
     melchior_grodziecki_priest: 'Św. Melchiora Grodzieckiego, prezbitera i męczennika',
     michael_gabriel_and_raphael_archangels: 'Świętych Archaniołów Michała, Gabriela i Rafała',
     michael_kozal_bishop: 'Bł. Michała Kozala, biskupa i męczennika',
+    michael_sopocko_priest: "Bł. Michała Sopoćki",
     modestus_andlauer_and_andrew_bauer_martyrs: 'Św. Modesta Andlauera i Andrzeja Bauera, męczenników',
     modestus_andlauer_martyr: 'Św. Modesta Andlauera, męczennika',
     monica_of_hippo: 'Św. Moniki',
@@ -429,6 +433,7 @@ export const locale: Locale = {
     our_lady_of_mount_carmel: 'Najświętszej Maryi Panny z Góry Karmel',
     our_lady_of_sorrows: 'Najświętszej Maryi Panny Bolesnej',
     our_lady_of_sorrows_patroness_of_slovakia: 'Najświętszej Maryi Panny Bolesnej, patronki Słowacji',
+    our_lady_of_the_discovery_of_the_hidden_christians: 'Najświętszej Maryi Panny, Odnalezienia Ukrytych Chrześcijan',
     our_lady_of_the_miraculous_medal: 'Najświętszej Maryi Panny od Cudownego Medalika',
     our_lady_of_the_rosary: 'Najświętszej Maryi Panny Różańcowej',
     our_lady_queen_of_poland: 'Najświętszej Maryi Panny, Królowej Polski, głownej patronki Polski',
@@ -526,5 +531,6 @@ export const locale: Locale = {
     yolanda_of_poland_religious: 'Bł. Jolanty, zakonnicy',
     zdislava_of_lemberk: 'Św. Zdzisławy',
     zygmunt_gorazdowski_priest: 'Św. Zygmunta Gorazdowskiego, prezbitera',
+
   },
 };

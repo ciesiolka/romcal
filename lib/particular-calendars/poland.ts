@@ -68,11 +68,6 @@ export class Poland extends CalendarDef {
       dateDef: { month: 5, date: 3 },
     },
 
-    our_lady_help_of_christians: {
-      precedence: Precedences.ProperMemorial_11b,
-      dateDef: { month: 5, date: 24 },
-    },
-
     florian_of_lorch_martyr: {
       precedence: Precedences.ProperMemorial_11b,
       dateDef: { month: 5, date: 4 },
@@ -97,6 +92,11 @@ export class Poland extends CalendarDef {
     andrew_bobola_priest: {
       precedence: Precedences.ProperFeast_8f,
       dateDef: { month: 5, date: 16 },
+    },
+
+    our_lady_help_of_christians: {
+      precedence: Precedences.ProperMemorial_11b,
+      dateDef: { month: 5, date: 24 },
     },
 
     mary_ursula_of_jesus_ledochowska_virgin: {
