@@ -473,6 +473,7 @@ export const locale: Locale = {
     presentation_of_the_blessed_virgin_mary: 'Ofiarowanie Najświętszej Maryi Panny',
     presentation_of_the_lord: 'Ofiarowanie Pańskie',
     queenship_of_the_blessed_virgin_mary: 'Najświętszej Maryi Panny, Królowej',
+    radim_of_gniezno_bishop: 'Bł. Radzima Gaudentego, biskupa',
     raphael_chylinski_priest: 'Bł. Rafała Chylińskiego, prezbitera',
     raphael_of_saint_joseph_kalinowski_priest: 'Św. Rafała Kalinowskiego, prezbitera',
     raymond_of_penyafort_priest: 'Św. Rajmunda z Penyafort, prezbitera',

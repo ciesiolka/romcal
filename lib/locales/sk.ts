@@ -980,7 +980,7 @@ export const locale: Locale = {
     willibald_of_eichstatt_bishop: 'Svätého Willibalda, biskupa',
     willibrord_of_utrecht_bishop: 'Svätého Willibrorda, biskupa',
     winefride_of_flintshire_virgin: 'Svätej Winefridy, panny',
-    wladyslaw_bladzinski_priest_and_companions_martyrs:
+    ladislaus_bladzinski_priest_and_companions_martyrs:
       'Blahoslaveného Vladislava Błądzińskiho, kňaza a spoločníkov, mučeníkov',
     wolfgang_of_regensburg_bishop: 'Svätého Wolfganga z Regensburgu, biskupa',
     wulstan_of_worcester_bishop: 'Svätého Vulstana, biskupa',

@@ -67,10 +67,10 @@ export class Ukraine extends CalendarDef {
       dateDef: { month: 8, date: 26 },
     },
 
-    wladyslaw_bladzinski_priest_and_companions_martyrs: {
+    ladislaus_bladzinski_priest_and_companions_martyrs: {
       precedence: Precedences.OptionalMemorial_12,
       dateDef: { month: 9, date: 9 },
-      martyrology: ['wladyslaw_bladzinski_priest', 'companions_martyrs'],
+      martyrology: ['ladislaus_bladzinski_priest', 'companions_martyrs'],
     },
 
     stanislaus_kostka_religious: {

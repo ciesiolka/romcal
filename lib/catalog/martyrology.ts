@@ -24,6 +24,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       titles: [Title.Bishop, Title.Martyr],
       dateOfDeath: 997,
     },
+    adam_bargielski: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Adam Bargielski",
+      titles: [Title.Priest, Title.Martyr]
+    },
     adelaide_of_burgundy_empress: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Adelaide of Burgundy',
@@ -122,6 +127,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Alberto Hurtado',
       titles: [Title.Priest],
     },
+    alex_sobaszek_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Alex Sobaszek",
+      titles: [Title.Priest, Title.Martyr]
+    },
     // src: mr_fr_2014_ed2_lyon
     alexander_of_lyon_martyr: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -158,6 +168,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       titles: [Title.Religious],
       dateOfDeath: 1591,
     },
+    aloysius_liguda_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Aloysius Liguda",
+      titles: [Title.Priest, Title.Martyr]
+    },
     aloysius_stepinac_bishop: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Aloysius Stepinac',
@@ -190,6 +205,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       dateOfDeath: 676,
       dateOfDeathIsApproximative: true,
     },
+    alphonsus_tracki_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Alphonsus Tracki',
+      titles: [Title.Priest, Title.Martyr]
+    },
     amandus_of_strasbourg_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Amandus of Strasbourg',
@@ -215,6 +235,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Ambrose',
       titles: [Title.Bishop, Title.DoctorOfTheChurch],
       dateOfDeath: 397,
+    },
+    anastas_pankiewicz_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Anastas Pankiewicz',
+      titles: [Title.Priest, Title.Martyr]
     },
     andre_bessette_religious: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -316,6 +341,19 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       titles: [Title.Bishop, Title.DoctorOfTheChurch],
       dateOfDeath: 1109,
     },
+    anthony_beszta_borowski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Anthony Beszta-Borowski",
+      titles: [Title.Priest, Title.Martyr]
+    },
+    // src: mr_fr_2014_ed2_lyon
+    anthony_chevrier_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Anthony Chevrier',
+      titles: [Title.Priest],
+      dateOfBirth: '1826-4-16',
+      dateOfDeath: '1879-10-2',
+    },
     ansgar_of_hamburg_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Ansgar',
@@ -362,19 +400,26 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Anthony of the Caves',
       titles: [Title.Monk],
     },
+    anthony_rewera_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Anthony Rewera",
+      titles: [Title.Priest, Title.Martyr]
+    },
+    anthony_swiadek_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Anthony Świadek',
+      titles: [Title.Priest, Title.Martyr],
+    },
     anthony_zaccaria_priest: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Anthony Zaccaria',
       titles: [Title.Priest],
       dateOfDeath: 1539,
     },
-    // src: mr_fr_2014_ed2_lyon
-    anthony_chevrier_priest: {
+    anthony_zawistowski: {
       canonizationLevel: CanonizationLevels.Blessed,
-      name: 'Anthony Chevrier',
-      titles: [Title.Priest],
-      dateOfBirth: '1826-4-16',
-      dateOfDeath: '1879-10-2',
+      name: 'Anthony Zawistowski',
+      titles: [Title.Priest, Title.Martyr]
     },
     apollinaris_of_ravenna_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -461,6 +506,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       dateOfDeath: {
         between: [1648, 1930],
       },
+    },
+    augustus_czartoryski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Augustus Czartoryski',
+      titles: [Title.Priest]
     },
     aurelia_of_strasbourg_virgin: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -561,6 +611,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       titles: [Title.Abbot, Title.DoctorOfTheChurch],
       dateOfDeath: 1153,
     },
+    bernardine_jablonska_virgin: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Bernardine Jabłońska',
+      titles: [Title.Virgin]
+    },
     bernardine_of_siena_priest: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Bernardine of Siena',
@@ -594,6 +649,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Bogumilus',
       titles: [Title.Bishop],
+    },
+    boleslaus_strzelecki_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Boleslaus Strzelecki",
+      titles: [Title.Priest, Title.Martyr]
     },
     boleslawa_mary_lament_virgin: {
       canonizationLevel: CanonizationLevels.Blessed,
@@ -640,6 +700,16 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Bronislava',
       titles: [Title.Virgin],
+    },
+    bronislaw_komorowski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Bronisław Komorowski',
+      titles: [Title.Priest, Title.Martyr]
+    },
+    bronislaw_kostkowski_martyr: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Bronisław Kostkowski",
+      titles: [Title.Martyr]
     },
     bronislaw_markiewicz_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
@@ -717,10 +787,30 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Carthage',
       titles: [Title.Bishop],
     },
+    casimir_gostynski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Casimir Gostyński',
+      titles: [Title.Priest, Title.Martyr]
+    },
+    casimir_grelewski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Casimir Grelewski",
+      titles: [Title.Priest, Title.Martyr]
+    },
     casimir_of_poland: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Casimir',
       dateOfDeath: 1484,
+    },
+    casimir_sykulski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Casimir Sykulski",
+      titles: [Title.Priest, Title.Martyr]
+    },
+    catherine_celestine_faron_virgin: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Catherine Celestine Faron",
+      titles: [Title.Virgin, Title.Martyr]
     },
     catherine_of_alexandria_virgin: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -768,6 +858,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Ceferino Giménez Malla',
       titles: [Title.Martyr],
     },
+    celine_borzecka_religious: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Celine Borzęcka',
+      titles: [Title.Religious]
+    },
     ceraunus_of_paris_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Céran of Paris',
@@ -775,6 +870,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       dateOfDeath: {
         century: 7,
       },
+    },
+    ceslaus_jozwiak: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Ceslaus Jóźwiak",
+      titles: [Title.Priest, Title.Martyr]
     },
     ceslaus_of_poland_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
@@ -1080,10 +1180,20 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       titles: [Title.Priest],
       dateOfDeath: 1221,
     },
+    dominic_jedrzejewski: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Dominic Jędrzejewski",
+      titles: [Title.Priest, Title.Martyr]
+    },
     dominic_of_the_mother_of_god_barberi_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Dominic of the Mother of God Barberi',
       titles: [Title.Priest],
+    },
+    dorothea_of_montau: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Dorothea of Montau',
+      titles: [Title.Virgin]
     },
     droctoveus_of_autun_abbot: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -1122,6 +1232,21 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Edmund of Abingdon',
       titles: [Title.Bishop],
+    },
+    edward_grzymala_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Edward Grzymała",
+      titles: [Title.Priest, Title.Martyr]
+    },
+    edward_kazmierski: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Edward Kaźmierski",
+      titles: [Title.Priest, Title.Martyr]
+    },
+    edward_klinik: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Edward Klinik",
+      titles: [Title.Priest, Title.Martyr]
     },
     edward_the_confessor: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -1172,6 +1297,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     emeric_of_hungary: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Emeric',
+    },
+    emil_szramka_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Emil Szramka',
+      titles: [Title.Priest, Title.Martyr]
     },
     emilie_tavernier_gamelin_religious: {
       canonizationLevel: CanonizationLevels.Blessed,
@@ -1404,6 +1534,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Francis Borgia',
       titles: [Title.Priest],
     },
+    francis_dachtera_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Francis Dachtera',
+      titles: [Title.Priest, Title.Martyr]
+    },
     francis_de_sales_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Francis de Sales',
@@ -1425,6 +1560,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Francis Fogolla',
       titles: [Title.Bishop, Title.Martyr],
     },
+    francis_kesy: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Francis Kęsy",
+      titles: [Title.Priest, Title.Martyr]
+    },
     francis_of_assisi: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Francis of Assisi',
@@ -1436,10 +1576,25 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       titles: [Title.Hermit],
       dateOfDeath: 1507,
     },
+    francis_rogaczewski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Francis Rogaczewski",
+      titles: [Title.Priest, Title.Martyr],
+    },
+    francis_roslaniec: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Francis Rosłaniec",
+      titles: [Title.Priest, Title.Martyr]
+    },
     francis_solanus_priest: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Francis Solanus',
       titles: [Title.Priest],
+    },
+    francis_stryjas_martyr: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Francis Stryjas",
+      titles: [Title.Martyr]
     },
     francis_xavier_priest: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -1540,6 +1695,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       titles: [Title.Martyr],
       dateOfDeath: 303,
     },
+    george_popieluszko_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'George Popiełuszko',
+      titles: [Title.Priest, Title.Martyr]
+    },
     george_preca_priest: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'George Preca',
@@ -1554,6 +1714,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Gerard of Csanád',
       titles: [Title.Bishop, Title.Martyr],
+    },
+    gerhard_hirschfelder_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Gerhard Hirschfelder",
+      titles: [Title.Priest, Title.Martyr]
     },
     germain_of_paris_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -1650,6 +1815,10 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     guardian_angel_of_portugal: {
       name: 'Guardian Angel of Portugal',
     },
+    guidona_cierpka_virgin: {
+      name: 'Guidona Cierpka',
+      titles: [Title.Virgin, Title.Martyr]
+    },
     gundisalvus_garcia_martyr: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Gundisalvus Garcia',
@@ -1704,6 +1873,18 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Henry',
       titles: [Title.Bishop, Title.Martyr],
       dateOfDeath: 1156,
+    },
+    henry_hlebowicz_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Henry Hlebowicz",
+      titles: [Title.Priest, Title.Martyr],
+      dateOfBirth: '1904-7-1',
+      dateOfDeath: '1941-11-9',
+    },
+    henry_kaczorowski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Henry Kaczorowski",
+      titles: [Title.Priest, Title.Martyr]
     },
     henry_suso_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
@@ -1800,6 +1981,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Hyacinth',
       titles: [Title.Priest],
     },
+    iarognievus_wojciechowski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Iarognievus",
+      titles: [Title.Priest, Title.Martyr]
+    },
     ignatius_de_azevedo_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Ignatius de Azevedo',
@@ -1808,6 +1994,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     ignatius_falzon: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Ignatius Falzon',
+    },
+    ignatius_klopotowski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Ignatius Kłopotowski',
+      titles: [Title.Priest]
     },
     ignatius_of_antioch_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -2010,6 +2201,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Joaquina of Saint Francis of Assisi de Vedruna',
       titles: [Title.Religious],
     },
+    john_adalbert_balicki_priest: {
+      canonizationLevel: CanonizationLevels.Saint,
+      name: 'John Adalbert Balicki',
+      titles: [Title.Priest]
+    },
     john_apostle: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'John',
@@ -2088,6 +2284,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       titles: [Title.Bishop, Title.Martyr],
       dateOfDeath: '1535-06-22',
     },
+    john_francis_macha_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'John Francis Macha',
+      titles: [Title. Priest, Title.Martyr]
+    },
     // src: mr_fr_2014_ed2_lyon
     john_francis_regis_priest: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -2145,6 +2346,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       titles: [Title.Priest],
       dateOfBirth: 1786,
       dateOfDeath: 1859,
+    },
+    john_nepomucene_chrzan_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'John Nepomucene Chrzan',
+      titles: [Title.Priest, Title.Martyr],
     },
     john_nepomucene_neumann_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -2243,10 +2449,25 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Josemaría Escrivá de Balaguer',
       titles: [Title.Priest],
     },
+    joseph_achilles_puchala_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Joseph Achilles Puchała",
+      titles: [Title.Priest, Title.Martyr]
+    },
     joseph_bilczewski_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Joseph Bilczewski',
       titles: [Title.Bishop],
+    },
+    joseph_cebula_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Joseph Cebula",
+      titles: [Title.Priest, Title.Martyr]
+    },
+    joseph_czempiel_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Joseph Czempiel',
+      titles: [Title.Priest, Title.Martyr]
     },
     joseph_de_anchieta_priest: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -2258,11 +2479,26 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Joseph Freinademetz',
       titles: [Title.Priest],
     },
+    joseph_kurzawa_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Joseph Kurzawa",
+      titles: [Title.Priest, Title.Martyr]
+    },
+    joseph_kut_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Joseph Kut",
+      titles: [Title.Priest, Title.Martyr]
+    },
     joseph_of_calasanz_priest: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Joseph of Calasanz',
       titles: [Title.Priest],
       dateOfDeath: 1648,
+    },
+    joseph_pawlowski_martyr: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Joseph Pawłowski",
+      titles: [Title.Martyr]
     },
     joseph_sebastian_pelczar_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -2273,6 +2509,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Joseph',
       titles: [Title.SpouseOfTheBlessedVirginMary],
+    },
+    joseph_straszewski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Joseph Straszewski",
+      titles: [Title.Priest, Title.Martyr]
     },
     joseph_the_worker: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -2395,18 +2636,60 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Kuriakose Elias of the Holy Family Chavara',
       titles: [Title.Priest],
     },
-    ladislas_of_gielniow_priest: {
-      canonizationLevel: CanonizationLevels.Blessed,
-      name: 'Ladislas of Gielniow',
-      titles: [Title.Priest],
-    },
     ladislaus_batthyany_strattmann: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Ladislaus Batthyány-Strattmann',
     },
+    ladislaus_bladzinski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Ladislaus Błądziński',
+      titles: [Title.Priest, Title.Martyr],
+    },
+    ladislaus_bukowinski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Ladislaus Bukowiński",
+      titles: [Title.Priest]
+    },
+    ladislaus_demski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Ladislaus Demski',
+      titles: [Title.Priest, Title.Martyr],
+    },
+    ladislaus_findysz_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Ladislaus Findysz',
+      titles: [Title.Priest, Title.Martyr]
+    },
+    ladislaus_goral_bishop:  {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Ladislaus Goral',
+      titles: [Title.Bishop, Title.Martyr]
+    },
     ladislaus_i_of_hungary: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Ladislaus',
+    },
+    ladislas_of_gielniow_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Ladislaus of Gielniow',
+      titles: [Title.Priest],
+    },
+    ladislaus_mackowiak_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Ladislaus Maćkowiak',
+      titles: [Title.Priest, Title.Martyr],
+      dateOfBirth: '1910-7-27',
+      dateOfDeath: '1942-3-4'
+    },
+    ladislaus_maczkowski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Ladislaus Mączkowski',
+      titles: [Title.Priest, Title.Martyr]
+    },
+    ladislaus_miegon_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Ladislaus Miegoń",
+      titles: [Title.Priest, Title.Martyr]
     },
     lambert_of_maastricht_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -2499,6 +2782,16 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       titles: [Title.Pope],
       dateOfDeath: '1054-4-19',
     },
+    leo_nowakowski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Leo Nowakowski",
+      titles: [Title.Priest, Title.Martyr]
+    },
+    leo_wetmanski_bishop: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Leo Wetmański",
+      titles: [Title.Bishop, Title.Martyr]
+    },
     leoba_of_tauberbischofsheim_abbess: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Leoba',
@@ -2535,6 +2828,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Louis Bertrand',
       titles: [Title.Priest],
+    },
+    louis_gietyngier_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Louis Gietyngier",
+      titles: [Title.Priest, Title.Martyr]
     },
     louis_flores_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
@@ -2758,10 +3056,30 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Mariana of Jesus de Paredes',
       titles: [Title.Virgin],
     },
+    marianne_biernacka_martyr: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Marianne Biernacka",
+      titles: [Title.Martyr]
+    },
     marianne_cope_virgin: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Marianne Cope',
       titles: [Title.Virgin],
+    },
+    marianus_gorecki_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Marianus Górecki',
+      titles: [Title.Priest, Title.Martyr]
+    },
+    marianus_konopinski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Marianus Konopiński',
+      titles: [Title.Priest, Title.Martyr]
+    },
+    marianus_skrzypczak_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Marianus Skrzypczak',
+      titles: [Title.Priest, Title.Martyr]
     },
     marie_anne_blondin_virgin: {
       canonizationLevel: CanonizationLevels.Blessed,
@@ -2857,12 +3175,27 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Mary Sapientia Heymann',
       titles: [Title.Virgin]
     },
+    mary_canisia_mackiewicz_virgin: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Mary Canisia Mackiewicz',
+      titles: [Title.Virgin, Title.Martyr]
+    },
+    mary_kanuta_virgin: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Mary Kanuta',
+      titles: [Title.Virgin, Title.Martyr]
+    },
     mary_magdalene: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Mary Magdalene',
       dateOfDeath: {
         century: 1,
       },
+    },
+    mary_martha_wolowska_virgin: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Mary Martha Casimira Wołowska",
+      titles: [Title.Virgin, Title.Martyr]
     },
     mary_magdalene_de_pazzi_virgin: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -2998,6 +3331,13 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Maurus',
       titles: [Title.Bishop],
     },
+    maximilian_binkiewicz_martyr: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Maximilian Binkiewicz',
+      titles: [Title.Martyr, Title.Priest],
+      dateOfBirth: '1908-2-21',
+      dateOfDeath: '1942-6-24'
+    },
     maximilian_mary_raymund_kolbe_priest: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Maximilian Mary Kolbe',
@@ -3051,12 +3391,36 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Michael Kozal',
       titles: [Title.Bishop, Title.Martyr],
     },
+    michael_piaszczynski: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Michael Piaszczyńskli",
+      titles: [Title.Priest, Title.Martyr]
+    },
     michael_sopocko_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Michael Sopoćko',
       titles: [Title.Priest],
       dateOfBirth: '1888-11-1',
       dateOfDeath: '1975-2-15',
+    },
+    michael_tomaszek_martyr: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Michael Tomaszek',
+      titles: [Title.Martyr, Title.Priest, Title.Religious],
+      dateOfBirth: '1960-9-23',
+      dateOfDeath: '1991-8-9'
+    },
+    michael_wozniak: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Michael Woźniak",
+      titles: [Title.Priest, Title.Martyr]
+    },
+    miecislaus_bohatkiewicz: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Miecislaus Bohatkiewicz',
+      titles: [Title.Priest, Title.Martyr],
+      dateOfBirth: '1904-1-1',
+      dateOfDeath: '1942-3-4'
     },
     miguel_agustin_pro_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
@@ -3121,6 +3485,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Mutien-Marie Wiaux',
       titles: [Title.Religious],
       dateOfDeath: 1917,
+    },
+    narcis_putz_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Narcis Putz",
+      titles: [Title.Priest, Title.Martyr]
     },
     nativity_of_john_the_baptist: {
       name: 'The Nativity of Saint John the Baptist',
@@ -3241,6 +3610,9 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Otto of Bamberg',
       titles: [Title.Bishop],
     },
+    our_lady_cause_of_our_joy: {
+      name: 'Our Lady, Cause of our Joy',
+    },
     our_lady_help_of_christians: {
       name: 'Our Lady, Help of Christians',
     },
@@ -3255,6 +3627,9 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     },
     our_lady_mother_of_divine_providence: {
       name: 'Our Lady, Mother of Divine Providence',
+    },
+    our_lady_mother_of_justice_and_social_love: {
+      name: 'Our Lady, Mother of Justice and Social Love',
     },
     our_lady_of_angels: {
       name: 'Our Lady of Angels',
@@ -3281,8 +3656,14 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     our_lady_of_good_counsel: {
       name: 'Our Lady of Good Counsel',
     },
+    our_lady_of_gostyn: {
+      name: 'Our Lady of Gostyń',
+    },
     our_lady_of_guadalupe: {
       name: 'Our Lady of Guadalupe',
+    },
+    our_lady_of_holy_linden: {
+      name: 'Our Lady of Holy Linden'
     },
     our_lady_of_hungary: {
       name: 'Our Lady of Hungary',
@@ -3293,11 +3674,20 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     our_lady_of_knock: {
       name: 'Our Lady of Knock',
     },
+    our_lady_of_koden_mother_of_unity: {
+      name: 'Our Lady of Kodeń, Mother of Unity'
+    },
     our_lady_of_lanka: {
       name: 'Our Lady of Lanka',
     },
+    our_lady_of_la_salette_reconciler_of_sinners: {
+      name: 'Our Lady of La Salette, Reconciler of Sinners'
+    },
     our_lady_of_lebanon: {
       name: 'Our Lady of Lebanon',
+    },
+    our_lady_of_lesna: {
+      name: 'Our Lady of Leśna',
     },
     our_lady_of_loreto: {
       name: 'Our Lady of Loreto',
@@ -3320,17 +3710,35 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     our_lady_of_mount_carmel: {
       name: 'Our Lady of Mount Carmel',
     },
+    our_lady_of_opole: {
+      name: 'Our Lady of Opole',
+    },
     our_lady_of_perpetual_help: {
       name: 'Our Lady of Perpetual Help',
     },
+    our_lady_of_piekary: {
+      name: 'Our Lady of Piekary'
+    },
+    our_lady_of_rokitno: {
+      name: 'Our Lady of Rokitno',
+    },
+    our_lady_of_rzeszow: {
+      name: 'Our Lady of Rzeszów',
+    },
     our_lady_of_sorrows: {
       name: 'Our Lady of Sorrows',
+    },
+    our_lady_of_sorrows_of_skrzatusz: {
+      name: 'Our Lady of Sorrows of Skrzatusz'
     },
     our_lady_of_the_discovery_of_the_hidden_christians: {
       name: 'Our Lady of the Discovery of the Hidden Christians',
     },
     our_lady_of_the_gate_of_dawn: {
       name: 'Our Lady of the Gate of Dawn',
+    },
+    our_lady_of_the_gate_of_dawn_mother_of_mercy: {
+      name: 'Our Lady of the Gate of Dawn, Mother of Marcy',
     },
     our_lady_of_the_miraculous_medal: {
       name: 'Our Lady of the Miraculous Medal',
@@ -3343,6 +3751,9 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     },
     our_lady_of_the_valley: {
       name: 'Our Lady of the Valley',
+    },
+    our_lady_of_tuchow: {
+      name: 'Our Lady of Tuchów'
     },
     our_lady_of_vladimir: {
       name: 'Our Lady of Vladimir',
@@ -3528,6 +3939,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Peter Damian',
       titles: [Title.Bishop, Title.DoctorOfTheChurch],
       dateOfDeath: 1072,
+    },
+    peter_dankowski: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Peter Dańkowski',
+      titles: [Title.Priest, Title.Martyr]
     },
     peter_de_zuniga_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
@@ -3763,6 +4179,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Roch',
     },
+    romanus_sitka_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Romanus Sitka",
+      titles: [Title.Priest, Title.Martyr]
+    },
     romuald_of_ravenna_abbot: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Romuald',
@@ -3812,10 +4233,22 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Sancha',
       titles: [Title.Virgin],
     },
+    sancia_szymkowiak_virgin: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Sancia Szymkowiak',
+      titles: [Title.Virgin, Title.Religious]
+    },
     sara_salkahazi_virgin: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Sára Salkaházi',
       titles: [Title.Virgin, Title.Martyr],
+    },
+    sbigneus_strzalkowski_martyr: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Sbigneus Strzałkowski",
+      titles: [Title.Martyr, Title.Religious, Title.Priest],
+      dateOfBirth: '1958-7-3',
+      dateOfDeath: '1991-8-9'
     },
     scholastica_of_nursia_virgin: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -3917,6 +4350,16 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Stanislaus Kostka',
       titles: [Title.Religious],
     },
+    stanislaus_kubski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Stanislaus Kubski',
+      titles: [Title.Priest, Title.Martyr]
+    },
+    stanislaus_mysakowski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Stanislaus Mysakowski',
+      titles: [Title.Priest, Title.Martyr]
+    },
     stanislaus_of_szczepanow_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Stanislaus',
@@ -3930,10 +4373,27 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       dateOfBirth: '1631-5-18',
       dateOfDeath: '1701-9-17'
     },
+    stanislaus_pyrtek: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Stanislaus Pyrtek',
+      titles: [Title.Priest, Title.Martyr],
+      dateOfBirth: '1913-3-21',
+      dateOfDeath: '1942-3-4',
+    },
+    stanislaus_starowieyski_martyr: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Stanislaus Starowieyski",
+      titles: [Title.Martyr]
+    },
     stephen_frelichowski_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Stephen Vincent Frelichowski',
       titles: [Title.Priest, Title.Martyr],
+    },
+    stephen_grelewski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Stephen Grelewski",
+      titles: [Title.Priest, Title.Martyr]
     },
     stephen_i_of_hungary: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -4122,6 +4582,9 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     transfiguration_of_the_lord: {
       name: 'The Transfiguration of the Lord',
     },
+    translation_of_the_relics_of_sainta_adalbert_of_prague: {
+      name: 'Translation of the Relics of Saint Adalbert'
+    },
     translation_of_the_relics_of_saint_stephen_of_hungary: {
       name: 'Translation of the Relics of Saint Stephen of Hungary',
     },
@@ -4176,6 +4639,12 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       dateOfDeath: 389,
       dateOfDeathIsApproximative: true,
     },
+    victoria_of_rome_virgin: {
+      canonizationLevel: CanonizationLevels.Saint,
+      name: 'Victoria of Rome',
+      dateOfDeath: '253-12-18',
+      titles: [Title.Virgin, Title.Martyr]
+    },
     vincent_de_paul_priest: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Vincent de Paul',
@@ -4197,6 +4666,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Vincent Lewoniuk',
       titles: [Title.Martyr],
+    },
+    vincent_matuszewski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Vincent Matuszewski",
+      titles: [Title.Priest, Title.Martyr]
     },
     vincent_of_saragossa_deacon: {
       canonizationLevel: CanonizationLevels.Saint,
@@ -4230,6 +4704,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     vladimir_i_the_great_of_kiev: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Vladimir the Great',
+    },
+    vladimir_laskowski_priest: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: "Vladimir Laskowski",
+      titles: [Title.Priest, Title.Martyr]
     },
     waitangi_day: {
       name: 'Waitangi Day',
@@ -4276,11 +4755,6 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Winefride',
       titles: [Title.Virgin],
     },
-    wladyslaw_bladzinski_priest: {
-      canonizationLevel: CanonizationLevels.Blessed,
-      name: 'Wladyslaw Błądziński',
-      titles: [Title.Priest, Title.Martyr],
-    },
     wolfgang_of_regensburg_bishop: {
       canonizationLevel: CanonizationLevels.Saint,
       name: 'Wolfgang of Regensburg',
@@ -4294,6 +4768,11 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     yolanda_of_poland_religious: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Yolanda',
+      titles: [Title.Religious],
+    },
+    yolanda_of_poland_duchess_of_kalisz_religious: {
+      canonizationLevel: CanonizationLevels.Blessed,
+      name: 'Yolanda, duchess of Kalisz',
       titles: [Title.Religious],
     },
     zdenka_cecilia_schelingova_virgin: {

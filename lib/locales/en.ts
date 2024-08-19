@@ -1011,7 +1011,7 @@ export const locale: Locale = {
     willibald_of_eichstatt_bishop: 'Saint Willibald, Bishop',
     willibrord_of_utrecht_bishop: 'Saint Willibrord, Bishop',
     winefride_of_flintshire_virgin: 'Saint Winefride, Virgin',
-    wladyslaw_bladzinski_priest_and_companions_martyrs: 'Blessed Wladyslaw Błądziński, Priest, and Companions, Martyrs',
+    ladislaus_bladzinski_priest_and_companions_martyrs: 'Blessed Wladyslaw Błądziński, Priest, and Companions, Martyrs',
     wolfgang_of_regensburg_bishop: 'Saint Wolfgang of Regensburg, Bishop',
     wulstan_of_worcester_bishop: 'Saint Wulstan, Bishop',
     yolanda_of_poland_religious: 'Blessed Yolanda, Religious',
