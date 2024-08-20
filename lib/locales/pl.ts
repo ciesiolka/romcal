@@ -188,6 +188,7 @@ export const locale: Locale = {
       'Św. Katarzyny Sieneńskiej, dziewicy i doktora Kościoła, patronki Włoch i Europy',
     catherine_zoe_laboure_virgin: 'Św. Katarzyny Labouré, dziewicy',
     cecilia_of_rome_virgin: 'Św. Cecylii, dziewicy i męczennicy',
+    celine_borzecka_religious: 'Bł. Celiny Borzęckiej, zakonnicy',
     ceraunus_of_paris_bishop: 'Św. Cerana z Paryża, biskupa',
     ceslaus_of_poland_priest: 'Bł. Czesława, prezbitera',
     chair_of_saint_peter_the_apostle: 'Katedry św. Piotra, Apostoła',
@@ -215,11 +216,19 @@ export const locale: Locale = {
     damasus_i_pope: 'Św. Damazego I, papieża',
     daniel_brottier_priest: 'Bł. Daniela Brottiera, prezbitera',
     dedication_of_consecrated_churches: 'Rocznica poświęcenia kościoła własnego',
+    dedication_of_the_archicathedral_basilica_of_bialystok_poland:
+      'Rocznica poświęcenia bazyliki archikatedralnej w Białymstoku',
+    dedication_of_the_archicathedral_basilica_of_czestochowa_poland:
+      'Rocznica poświęcenia bazyliki archikatedralnej w Częstochowie',
     dedication_of_the_basilica_of_saint_mary_major: 'Rocznica poświęcenia rzymskiej Bazyliki Najświętszej Maryi Panny',
     dedication_of_the_basilicas_of_saints_peter_and_paul_apostles:
       'Rocznica poświęcenia rzymskich bazylik świętych apostołów Piotra i Pawła',
     dedication_of_the_cathedral_basilica_of_saint_denis_france:
       'Rocznica poświęcenia Bazyliki Katedralnej Saint-Denis, Francja',
+    dedication_of_the_cathedral_of_bielsko_biala_poland:
+      'Rocznica poświęcenia kościoła katedralnego w Bielsku-Białej',
+    dedication_of_the_cathedral_of_bydgoszcz_poland:
+      'Rocznica poświęcenia kościoła katedralnego w Bydgoszczy',
     dedication_of_the_cathedral_of_notre_dame_de_strasbourg_france:
       'Rocznica poświęcenia Katedry Notre-Dame de Strasbourg, Francja',
     dedication_of_the_cathedral_of_wroclaw_poland:
@@ -253,6 +262,8 @@ export const locale: Locale = {
     florentius_of_strasbourg_bishop: 'Św. Florencjusza, biskupa',
     florian_of_lorch_martyr: 'Św. Floriana, męczennika',
     frances_of_rome_religious: 'Św. Franciszki Rzymianki, zakonnicy',
+    francis_dachtera_anthony_swiadek_and_companions:
+      'Błogosławionych męczenników Franciszka Dachtery, Antoniego Świadka, prezbiterów, i Towarzyszy',
     francis_de_sales_bishop: 'Św. Franciszka Salezego, biskupa i doktora Kościoła',
     francis_diaz_del_rincon_priest_and_companions_martyrs:
       'Świętych męczenników Franciszka Diaza, prezbitera, i Towarzyszy',
@@ -267,6 +278,7 @@ export const locale: Locale = {
     george_matulaitis_bishop: 'Bł. Jerzego Matulewicza, biskupa',
     george_of_lydda_martyr: 'Św. Grzegorza, męczennika',
     george_of_lydda_martyr_patron_of_england: 'Św. Grzegorza, męczennika, patrona Anglii',
+    george_popieluszko_priest: 'Bł. Jerzego Popiełuszki, prezbitera i męczennika',
     germain_of_paris_bishop: 'Św. Germana, biskupa',
     gertrude_the_great_virgin: 'Św. Gertrudy, dziewicy',
     gregory_grassi_francis_fogolla_and_anthony_fantosati_bishops_and_companions_martyrs:
@@ -318,6 +330,7 @@ export const locale: Locale = {
     john_leonardi_priest: 'Św. Jana Leonardiego, prezbitera',
     john_martin_moye_priest: 'Bł. Jana Marcina Moyego, prezbitera',
     john_mary_vianney_priest: 'Św. Jana Marii Vianneya, prezbitera',
+    john_nepomucene_priest: 'Św. Jana Nepomucena, prezbitera i męczennika',
     john_of_avila_priest: 'Św. Jana z Ávili, prezbitera i doktora Kościoła', // src: https://pl.wikipedia.org/wiki/Jan_z_%C3%81vili
     john_of_capistrano_priest: 'Św. Jana Kapistrana, prezbitera',
     john_of_dukla_priest: 'Św. Jana z Dukli, prezbitera',
@@ -361,6 +374,7 @@ export const locale: Locale = {
     madeleine_sophie_barat_virgin: 'Św. Magdaleny Zofii Barat, dziewicy',
     marcellinus_of_rome_and_peter_the_exorcist_martyrs: 'Świętych męczenników Marcelina i Piotra',
     marcellus_of_paris_bishop: 'Św. Marcelego z Paryża, biskupa',
+    margaret_lucia_szewczyk_virgin: 'Bł. Małgorzaty Łucji Szewczyk, dziewicy',
     margaret_mary_alacoque_virgin: 'Św. Małgorzaty Marii Alacoque, dziewicy',
     margaret_of_scotland: 'Św. Małgorzaty Szkockiej',
     maria_goretti_virgin: 'Św. Marii Goretti, dziewicy i męczennicy',
@@ -396,12 +410,17 @@ export const locale: Locale = {
     matthew_apostle: 'Św. Mateusza, Apostoła i Ewangelisty',
     matthias_apostle: 'Św. Macieja, Apostoła',
     maurice_tornay_priest: 'Bł. Maurycego Tornaya, prezbitera i męczennika',
+    maximilian_binkiewicz_louis_gietyngier_and_companions:
+      'Błogosławionych męczenników Maksymiliana Binkiewicza, Ludwika Rocha Gietyngiera, prezbiterów, i Towarzyszy',
     maximilian_mary_raymund_kolbe_priest: 'Św. Maksymiliana Marii Kolbego, prezbitera i męczennika',
     mederic_of_autun_and_droctoveus_of_autun_abbots: 'Świętych Mederyka i Droktoweusza, opatów',
     melchior_grodziecki_priest: 'Św. Melchiora Grodzieckiego, prezbitera i męczennika',
     michael_gabriel_and_raphael_archangels: 'Świętych Archaniołów Michała, Gabriela i Rafała',
     michael_kozal_bishop: 'Bł. Michała Kozala, biskupa i męczennika',
-    michael_sopocko_priest: "Bł. Michała Sopoćki",
+    michael_sopocko_priest: 'Bł. Michała Sopoćki, prezbitera',
+    michael_tomaszek_martyr: 'Bł. Michała Tomaszka, prezbiera i męczennika',
+    miecislaus_bohatkiewicz_and_companions:
+      'Błogosławionych męczenników Mieczysława Bohatkiewicza, Henryka Hlebowicza, Władysława Maćkowiaka, Stanisława Pyrtka, prezbiterów, i Towarzyszy',
     modestus_andlauer_and_andrew_bauer_martyrs: 'Św. Modesta Andlauera i Andrzeja Bauera, męczenników',
     modestus_andlauer_martyr: 'Św. Modesta Andlauera, męczennika',
     monica_of_hippo: 'Św. Moniki',
@@ -413,6 +432,8 @@ export const locale: Locale = {
     most_sacred_heart_of_jesus: 'Najświętszego Serca Pana Jezusa',
     nativity_of_john_the_baptist: 'Narodzenie św. Jana Chrzciciela',
     nativity_of_the_blessed_virgin_mary: 'Narodzenie Najświętszej Maryi Panny',
+    nativity_of_the_blessed_virgin_mary_mother_of_beautiful_love:
+      'Narodzenie Najświętszej Maryi Panny, Matki Pięknej Miłości',
     nativity_of_the_lord: 'Narodzenie Pańskie',
     nereus_of_terracina_and_achilleus_of_terracina_martyrs: 'Świętych męczenników Nereusza i Achillesa',
     nicholas_barre_priest: 'Bł. Mikołaja Barré, prezbitera',
@@ -434,6 +455,8 @@ export const locale: Locale = {
     our_lady_of_sorrows: 'Najświętszej Maryi Panny Bolesnej',
     our_lady_of_sorrows_patroness_of_slovakia: 'Najświętszej Maryi Panny Bolesnej, patronki Słowacji',
     our_lady_of_the_discovery_of_the_hidden_christians: 'Najświętszej Maryi Panny, Odnalezienia Ukrytych Chrześcijan',
+    our_lady_of_the_gate_of_dawn: 'Najświętszej Maryi Panny Ostrobramskiej',
+    our_lady_of_the_gate_of_dawn_mother_of_mercy: 'Najświętszej Maryi Panny Ostrobramskiej, Matki Miłosierdzia',
     our_lady_of_the_miraculous_medal: 'Najświętszej Maryi Panny od Cudownego Medalika',
     our_lady_of_the_rosary: 'Najświętszej Maryi Panny Różańcowej',
     our_lady_queen_of_poland: 'Najświętszej Maryi Panny, Królowej Polski, głownej patronki Polski',
@@ -484,6 +507,9 @@ export const locale: Locale = {
     rosalie_jeanne_marie_rendu_virgin: 'Bł. Rozalii Rendu, dziewicy',
     rose_of_lima_virgin: 'Św. Róży z Limy, dziewicy',
     salomea_of_poland_religious: 'Bł. Salomei, zakonnicy',
+    sbigneus_strzalkowski_martyr: 'Bł. Zbigniewa Strzałkowskiego, prezbitera i męczennika',
+    sbigneus_strzalkowski_michael_tomaszek_martyrs:
+      'Błogosławionych męczenników Zbigniewa Strzałkowskiego i Michała Tomaszka, prezbiterów',
     scholastica_of_nursia_virgin: 'Św. Scholastyki, dziewicy',
     sebastian_of_milan_martyr: 'Św. Sebastiana, męczennika',
     seven_holy_founders_of_the_servite_order: 'Świętych Siedmiu Założycieli Zakonu Serwitów Najświętszej Maryi Panny',

@@ -1,10 +1,10 @@
-import { ProperCycles } from '../constants/cycles';
-import { PatronTitle, Title } from '../constants/martyrology-metadata';
-import { Precedences } from '../constants/precedences';
-import { CalendarDef } from '../models/calendar-def';
-import { Inputs } from '../types/calendar-def';
+import { ProperCycles } from "../constants/cycles";
+import { PatronTitle, Title } from "../constants/martyrology-metadata";
+import { Precedences } from "../constants/precedences";
+import { CalendarDef } from "../models/calendar-def";
+import { Inputs } from "../types/calendar-def";
 
-import { Europe } from './europe';
+import { Europe } from "./europe";
 
 export class Poland extends CalendarDef {
   ParentCalendar = Europe;
@@ -20,26 +20,21 @@ export class Poland extends CalendarDef {
       dateDef: { month: 1, date: 22 },
     },
 
-    vincent_lewoniuk_and_companions_martyrs: {
-      precedence: Precedences.OptionalMemorial_12,
-      dateDef: { month: 1, date: 23 },
-      martyrology: ['vincent_lewoniuk_martyr', 'companions_martyrs'],
-    },
+    // vincent_lewoniuk_and_companions_martyrs: {
+    //   precedence: Precedences.OptionalMemorial_12,
+    //   dateDef: { month: 1, date: 23 },
+    //   martyrology: ['vincent_lewoniuk_martyr', 'companions_martyrs'],
+    // },
 
-    george_matulaitis_bishop: {
-      precedence: Precedences.OptionalMemorial_12,
-      dateDef: { month: 1, date: 27 },
-    },
+    // george_matulaitis_bishop: {
+    //   precedence: Precedences.OptionalMemorial_12,
+    //   dateDef: { month: 1, date: 27 },
+    // },
 
-    boleslawa_mary_lament_virgin: {
-      precedence: Precedences.OptionalMemorial_12,
-      dateDef: { month: 1, date: 29 },
-    },
-
-    angela_merici_virgin: {
-      precedence: Precedences.OptionalMemorial_12,
-      dateDef: { month: 1, date: 29 },
-    },
+    // boleslawa_mary_lament_virgin: {
+    //   precedence: Precedences.OptionalMemorial_12,
+    //   dateDef: { month: 1, date: 29 },
+    // },
 
     casimir_of_poland: {
       precedence: Precedences.ProperFeast_8f,
@@ -47,20 +42,25 @@ export class Poland extends CalendarDef {
     },
 
     adalbert_of_prague_bishop: {
-      customLocaleId: 'adalbert_of_prague_bishop_patron_of_poland',
+      customLocaleId: "adalbert_of_prague_bishop_patron_of_poland",
       precedence: Precedences.ProperSolemnity_PrincipalPatron_4a,
       dateDef: { month: 4, date: 23 },
       // When it falls between Palm Sunday and the Second Sunday of Easter inclusive,
       // it is transferred to the Monday after the Second Sunday of Easter
       dateExceptions: {
         ifIsBetween: {
-          from: { dateFn: 'palmSunday' },
-          to: { dateFn: 'divineMercySunday' },
+          from: { dateFn: "palmSunday" },
+          to: { dateFn: "divineMercySunday" },
           inclusive: true,
         },
-        setDate: { dateFn: 'divineMercySunday', addDay: 1 },
+        setDate: { dateFn: "divineMercySunday", addDay: 1 },
       },
       titles: { append: [PatronTitle.PatronOfPoland] },
+    },
+
+    george_of_lydda_martyr: {
+      dateDef: { month: 4, date: 24 },
+      precedence: Precedences.OptionalMemorial_12,
     },
 
     our_lady_queen_of_poland: {
@@ -83,7 +83,7 @@ export class Poland extends CalendarDef {
     },
 
     stanislaus_of_szczepanow_bishop: {
-      customLocaleId: 'stanislaus_of_szczepanow_bishop_patron_of_poland',
+      customLocaleId: "stanislaus_of_szczepanow_bishop_patron_of_poland",
       precedence: Precedences.ProperSolemnity_PrincipalPatron_4a,
       dateDef: { month: 5, date: 8 },
       titles: { append: [PatronTitle.PatronOfPoland] },
@@ -127,7 +127,7 @@ export class Poland extends CalendarDef {
     anthony_julian_nowowiejski_bishop_and_companions_martyrs: {
       precedence: Precedences.OptionalMemorial_12,
       dateDef: { month: 6, date: 12 },
-      martyrology: ['anthony_julian_nowowiejski_bishop', 'companions_martyrs'],
+      martyrology: ["anthony_julian_nowowiejski_bishop", "companions_martyrs"],
     },
 
     michael_kozal_bishop: {
@@ -178,7 +178,10 @@ export class Poland extends CalendarDef {
     andrew_zorard_of_nitra_and_benedict_of_skalka_hermits: {
       precedence: Precedences.ProperMemorial_11b,
       dateDef: { month: 7, date: 13 },
-      martyrology: ['andrew_zorard_of_nitra_hermit', 'benedict_of_skalka_hermit'],
+      martyrology: [
+        "andrew_zorard_of_nitra_hermit",
+        "benedict_of_skalka_hermit",
+      ],
     },
 
     camillus_de_lellis_priest: {
@@ -245,9 +248,9 @@ export class Poland extends CalendarDef {
       precedence: Precedences.OptionalMemorial_12,
       dateDef: { month: 9, date: 4 },
       martyrology: [
-        'mary_stella_of_the_blessed_sacrament_mardosewicz_virgin',
+        "mary_stella_of_the_blessed_sacrament_mardosewicz_virgin",
         {
-          id: 'companions_martyrs',
+          id: "companions_martyrs",
           titles: { prepend: [Title.Virgin] },
         },
       ],
@@ -391,13 +394,13 @@ export class Poland extends CalendarDef {
 
     mary_mother_of_the_church: {
       precedence: Precedences.ProperFeast_8f,
-      dateDef: { dateFn: 'pentecostSunday', addDay: 1 },
+      dateDef: { dateFn: "pentecostSunday", addDay: 1 },
       properCycle: ProperCycles.ProperOfTime,
     },
 
     our_lord_jesus_christ_the_eternal_high_priest: {
       precedence: Precedences.ProperFeast_8f,
-      dateDef: { dateFn: 'pentecostSunday', addDay: 4 },
+      dateDef: { dateFn: "pentecostSunday", addDay: 4 },
       properCycle: ProperCycles.ProperOfTime,
     },
   };

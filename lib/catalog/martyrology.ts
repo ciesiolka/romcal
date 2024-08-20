@@ -3331,7 +3331,7 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       name: 'Maurus',
       titles: [Title.Bishop],
     },
-    maximilian_binkiewicz_martyr: {
+    maximilian_binkiewicz_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Maximilian Binkiewicz',
       titles: [Title.Martyr, Title.Priest],
@@ -3410,12 +3410,12 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       dateOfBirth: '1960-9-23',
       dateOfDeath: '1991-8-9'
     },
-    michael_wozniak: {
+    michael_wozniak_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: "Michael Woźniak",
       titles: [Title.Priest, Title.Martyr]
     },
-    miecislaus_bohatkiewicz: {
+    miecislaus_bohatkiewicz_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Miecislaus Bohatkiewicz',
       titles: [Title.Priest, Title.Martyr],
@@ -3736,8 +3736,7 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
     },
     our_lady_of_the_gate_of_dawn: {
       name: 'Our Lady of the Gate of Dawn',
-    },
-    our_lady_of_the_gate_of_dawn_mother_of_mercy: {
+    },    our_lady_of_the_gate_of_dawn_mother_of_mercy: {
       name: 'Our Lady of the Gate of Dawn, Mother of Marcy',
     },
     our_lady_of_the_miraculous_medal: {
@@ -4373,7 +4372,7 @@ export const Martyrology: { catalog: MartyrologyCatalog } = {
       dateOfBirth: '1631-5-18',
       dateOfDeath: '1701-9-17'
     },
-    stanislaus_pyrtek: {
+    stanislaus_pyrtek_priest: {
       canonizationLevel: CanonizationLevels.Blessed,
       name: 'Stanislaus Pyrtek',
       titles: [Title.Priest, Title.Martyr],
