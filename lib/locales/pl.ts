@@ -233,6 +233,8 @@ export const locale: Locale = {
       'Rocznica poświęcenia Katedry Notre-Dame de Strasbourg, Francja',
     dedication_of_the_cathedral_of_wroclaw_poland:
       'Rocznica poświęcenia kościoła katedralnego we Wrocławiu',
+      dedication_of_the_cathedral_of_militariate_ordinariate_in_warsaw_poland:
+      'Rocznica poświęcenia kościoła katedralnego w Warszawie',
     dedication_of_the_lateran_basilica: 'Rocznica poświęcenia Bazyliki Laterańskiej',
     dedication_of_the_notre_dame_de_paris_cathedral_paris_france:
       'Rocznica poświęcenia Katedry Notre-Dame de Paris, Francja',
@@ -354,6 +356,7 @@ export const locale: Locale = {
     juan_diego_cuauhtlatoatzin: 'Św. Jana Diego Cuahtlatoatzin',
     justin_martyr: 'Św. Justyna, męczennika',
     kinga_of_poland_virgin: 'Św. Kingi, dziewicy',
+    ladislaus_miegon_and_companions: 'Błogosławionych męczenników Władysława Miegonia, prezbitera, i Towarzyszy',
     ladislas_of_gielniow_priest: 'Bł. Władysława z Gielniowa, prezbitera',
     landry_of_paris_bishop: 'Św. Landeryka z Paryża, biskupa',
     laurence_wang_bing_and_companions_martyrs: 'Świętych męczenników Wawrzyńca Wang Binga i Towarzyszy',
@@ -460,6 +463,7 @@ export const locale: Locale = {
     our_lady_of_the_miraculous_medal: 'Najświętszej Maryi Panny od Cudownego Medalika',
     our_lady_of_the_rosary: 'Najświętszej Maryi Panny Różańcowej',
     our_lady_queen_of_poland: 'Najświętszej Maryi Panny, Królowej Polski, głownej patronki Polski',
+    our_lady_queen_of_poland_hetman_of_polish_solider: 'Najświętszej Maryi Panny, Królowej Polski, Hetmanki Żołnierza Polskiego, głównej patronki Ordynariatu Polowego',
     our_lady_refuge_of_sinners: 'Najświętszej Maryi Panny, Ucieczki Grzeszników',
     our_lord_jesus_christ_king_of_the_universe: 'Jezusa Chrystusa Króla Wszechświata',
     our_lord_jesus_christ_the_eternal_high_priest: 'Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana',
